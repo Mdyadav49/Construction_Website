@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interior Design &amp; Construction Services</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index.html">
+        <script src="index.js" defer></script>
+    </head>
+<body>
+ <!-- Navigation Bar -->
+ <nav class="nav-bar">
+    <div class="logo">
+        <a href="index.html"><img src="img/cliparts .jpg/logo.png"></a>
+    </div>
+    <ul class="open-ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="our-products.html">Products</a></li>
+        <li>
+            <a href="#">Company</a>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li> <!-- Link to About Us section -->
+                <li><a href="careers.html">Careers</a></li>
+            </ul>
+        </li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+    <i id="menu-bar" class="fa-solid fa-bars"></i>
+    <i id="close-btn" class="fa-solid fa-xmark"></i>
+</nav>
+
+<!-- Banner Section with Video -->
+<header>
+   
+</header>
+    <!-- Landing Section -->
+    <div class="landing">
+        <div class="landing-content" >
+            <h1>Join Our Team</h1>
+            <p>We are looking for talented individuals to join our creative family. Let's work together and create amazing spaces!</p>
+            <a href="#careers" class="cta-button">Apply Now</a>
+        </div>
+    </div>
+
+    <!-- Careers Page Header -->
+    <section id="careers" class="section-highlight Careers">
+        <h2>Careers</h2>
+        <p>Start your journey with us. Fill out the form below to apply for a position that matches your skills!</p>
+    </section>
+    
+    <!-- Job Application Form -->
+    <section class="application-form">
+        <h2>Submit Your Details and We Shall Get Back to You</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Name (As per Aadhar Card): <span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address: <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            
+            <!-- Mobile Number -->
+            <div class="form-group">
+                <label for="mobile">Mobile Number: <span class="required">*</span></label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" required>
+            </div>
+            
+            <!-- Function -->
+            <div class="form-group">
+                <label for="function">Function: <span class="required">*</span></label>
+                <select id="function" name="function" required>
+                    <option value="">Select an option</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="sales">Sales</option>
+                    <option value="legal">Legal</option>
+                    <option value="administration">Administration</option>
+                    <option value="business-development">Business Development</option>
+                    <option value="it">IT</option>
+                    <option value="design">Design</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="finance-and-accounts">Finance and Accounts</option>
+                </select>
+            </div>
+            
+            <!-- Current Employer -->
+            <div class="form-group">
+                <label for="current-employer">Current Employer:</label>
+                <input type="text" id="current-employer" name="current-employer" placeholder="Enter your current employer">
+            </div>
+            
+            <!-- Current Designation -->
+            <div class="form-group">
+                <label for="current-designation">Current Designation:</label>
+                <input type="text" id="current-designation" name="current-designation" placeholder="Enter your current designation">
+            </div>
+            
+            <!-- Overall Years of Experience -->
+            <div class="form-group">
+                <label for="experience">Overall Years of Experience:</label>
+                <input type="number" id="experience" name="experience" placeholder="Enter your total experience" min="0" step="0.1">
+            </div>
+            
+            <!-- Upload CV -->
+            <div class="form-group">
+                <label for="cv">Upload Your CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <a href="#" class="footer-logo">
+                    <img src="img/cliparts .jpg/logo.png" alt="logo">
+                </a>
+                <p class="about-text" id="footer-logo-para">At Vicky's Design Studio, we transform spaces to inspire lives with innovative
+                    designs and creative solutions.</p>
+            </div>
+
+            <div class="footer-column" id="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column" id="contact-column">
+                <h3>Contact Details</h3>
+                <ul>
+                    <li>Address: Vicky's design, SG Barve Marg, Netaji Nagar, Brahmanwadi, Kurla, Mumbai, Maharashtra
+                        400024</li>
+                    <li>Email: Vijaynmumbai@gmail.com</li>
+                    <li>Phone: +91-9833924169</li>
+                </ul>
+            </div>
+
+            <!-- Fourth Column: Social Media -->
+            <div class="footer-column" id="links-column">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/vickysdesignstudio/" class="social-link">
+                        <i id="facebook" class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/17eqbkoyop/" class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/vicky-s-design-studio/" class="social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://in.pinterest.com/VickysDesignStudio/" class="social-link">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a href="https://wa.me/message/PEBGFPUTZJQUP1" class="social-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Vicky's Design Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
