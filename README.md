@@ -27,11 +27,11 @@ Built using **HTML, CSS, and JavaScript** with focus on performance, UI, and sim
 
 | Home                                                       | Services                                                           |
 | ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| ![Home](https://placehold.co/800x500/1a1a2e/FFF?text=Home) | ![Services](https://placehold.co/800x500/1a1a2e/FFF?text=Services) |
+| ![Home](./preview_images/home.png) | ![Services](./preview_images/services.png) |
 
 | Portfolio                                                            | About                                                        |
 | -------------------------------------------------------------------- | ------------------------------------------------------------ |
-| ![Portfolio](https://placehold.co/800x500/1a1a2e/FFF?text=Portfolio) | ![About](https://placehold.co/800x500/1a1a2e/FFF?text=About) |
+| ![Portfolio](./preview_images/portfolio.png) | ![About](./preview_images/about.png) |
 
 ---
 
